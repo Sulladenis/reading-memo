@@ -3,7 +3,7 @@ import json
 
 def insert(data: dict) -> None:
     with open('book.json', 'w') as file:
-        json.dump(data, file)
+        json.dump(data, file, indent=2)
 
 def get_db():
     with open('book.json') as file:
@@ -12,4 +12,4 @@ def get_db():
 
 def list_book():
     data = get_db()
-    return [x[1] for x in data]
+    return [x for x in data]

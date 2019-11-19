@@ -1,1 +1,20 @@
-{"python book": ["10.09.2019", 200, 50, false]}
+{
+  "Python book": [
+    null,
+    null,
+    0,
+    null
+  ],
+  "Test book": [
+    "19.11.2019",
+    100,
+    0,
+    null
+  ],
+  "Book": [
+    null,
+    "10.10.2019",
+    0,
+    null
+  ]
+}
